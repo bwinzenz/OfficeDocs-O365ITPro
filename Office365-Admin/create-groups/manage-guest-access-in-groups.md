@@ -204,6 +204,9 @@ The last line of the script will display the updated settings:
 
 > [!NOTE]
 > You must have global admin rights to run these commands. 
+
+> [!NOTE]
+> Settings made at the Tenant level take precedence over settings made at the Group level. For example, if you set AllowToAddGuests to "False" at the Tenant level, following the below instructions to Allow to Add Guests will not work because the Tenant level setting is disabled.
   
 1. Did you install the **AzureADPreview** module, as instructed in the above section "Install the preview version of the Azure Active Directory Module for Windows PowerShell"? Not having the most current **preview** version is the #1 reason these steps don't work for people. 
     
